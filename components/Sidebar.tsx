@@ -40,13 +40,13 @@ const Sidebar = () => {
       </a>
       {/* //Social Icons */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href="https://github.com/shankha007" target="_blank" aria-label="Github">
+        <a href="https://github.com/shankha007" target="_blank" rel="noreferrer" aria-label="Github">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/shankhad/" target="_blank" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/shankhad/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://twitter.com/ShankhaD" target="_blank" aria-label="Twitter">
+        <a href="https://twitter.com/ShankhaD" target="_blank" rel="noreferrer" aria-label="Twitter">
           <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
