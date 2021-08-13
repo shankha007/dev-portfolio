@@ -15,7 +15,7 @@ const index = () => {
       className="flex flex-col flex-grow px-6 pt-1"
     >
       <Head>
-        <title>Web Developer | Portfolio</title>
+        <title>Shankha Shubhra Das | Portfolio</title>
       </Head>
       <h5 className="my-3 text-base font-medium">
         I am currently working as a Software Enginner at Persistent Systems Ltd.

@@ -28,8 +28,8 @@ const Sidebar = () => {
       <h3 className="my-4 text-2xl font-medium tracking-wider font-lobster">
         <span className="text-green">Shankha Shubhra </span>Das
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-        Web Developer
+      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:hover:bg-green dark:hover:text-black hover:bg-green">
+        Software Engineer
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
@@ -40,13 +40,13 @@ const Sidebar = () => {
       </a>
       {/* //Social Icons */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href="" aria-label="Github">
+        <a href="https://github.com/shankha007" target="_blank" aria-label="Github">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/shankhad/" target="_blank" aria-label="LinkedIn">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="" aria-label="Twitter">
+        <a href="https://twitter.com/ShankhaD" target="_blank" aria-label="Twitter">
           <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
       </div>

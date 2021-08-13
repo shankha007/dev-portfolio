@@ -23,4 +23,12 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "node" | "express" | "django" | "mongo" | "ml" | "vanilla";
+export type Category =
+  | "react"
+  | "node"
+  | "express"
+  | "next"
+  | "mongo"
+  | "java"
+  | "angular"
+  | "javascript";

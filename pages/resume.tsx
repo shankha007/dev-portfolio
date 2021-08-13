@@ -15,7 +15,7 @@ const resume = () => {
       className="px-6 py-2"
     >
       <Head>
-        <title>Web Developer | Resume</title>
+        <title>Shankha Shubhra Das | Resume</title>
       </Head>
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="inital" animate="animate">
@@ -37,7 +37,7 @@ const resume = () => {
             <h5 className="my-2 text-xl font-bold">Software Engineer</h5>
             <p className="font-semibold">Persistent Systems Ltd.</p>
             <p className="my-3">
-              I work here as a software engineer and working in React UI domain.
+              I work here as a Software Engineer and working in React UI domain.
             </p>
           </div>
         </motion.div>
