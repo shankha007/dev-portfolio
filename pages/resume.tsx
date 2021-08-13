@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 import Bar from "../components/Bar";
 import { languages, tools } from "../data";
@@ -13,7 +14,9 @@ const resume = () => {
       exit="exit"
       className="px-6 py-2"
     >
-      {/* education & experience */}
+      <Head>
+        <title>Web Developer | Resume</title>
+      </Head>
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="inital" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>

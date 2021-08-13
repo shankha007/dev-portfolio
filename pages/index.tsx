@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from 'next/head';
 
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
@@ -13,7 +14,10 @@ const index = () => {
       exit="exit"
       className="flex flex-col flex-grow px-6 pt-1"
     >
-      <h5 className="my-2 font-medium">
+      <Head>
+        <title>Web Developer | Portfolio</title>
+      </Head>
+      <h5 className="my-3 text-base font-medium">
         I am currently working as a Software Enginner at Persistent Systems Ltd.
         I am completed my B.Tech from Academy of Technology with 9.58 DGPA and
         secured 86.8% and 91.7% aggregate in 12th and 10th respectively. I have

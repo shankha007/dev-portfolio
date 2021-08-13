@@ -15,6 +15,14 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap"
             rel="stylesheet"
           />
+          <meta
+            name="description"
+            content="MERN stack developer looking for a job"
+          />
+          <meta
+            name="keywords"
+            content="Full Stack Web Developer, Freelancer, MERN Developer"
+          />
         </Head>
         <body className="bg-gradient-to-r from-green to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white">
           <Main />
