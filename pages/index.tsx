@@ -1,9 +1,18 @@
+import { motion } from "framer-motion";
+
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
+import { fadeInUp, routeAnimation, stagger } from "../animations";
 
 const index = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div
+      variants={routeAnimation}
+      initial="intial"
+      animate="animate"
+      exit="exit"
+      className="flex flex-col flex-grow px-6 pt-1"
+    >
       <h5 className="my-2 font-medium">
         I am currently working as a Software Enginner at Persistent Systems Ltd.
         I am completed my B.Tech from Academy of Technology with 9.58 DGPA and
@@ -16,15 +25,24 @@ const index = () => {
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer?</h6>
-        <div className="grid gap-6 lg:grid-cols-2">
-          {services.map(service => (
-            <div key={service.about} className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1">
+        <motion.div
+          className="grid gap-6 lg:grid-cols-2"
+          variants={stagger}
+          initial="initial"
+          animate="animate"
+        >
+          {services.map((service) => (
+            <motion.div
+              variants={fadeInUp}
+              key={service.about}
+              className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1"
+            >
               <ServiceCard service={service} />
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
