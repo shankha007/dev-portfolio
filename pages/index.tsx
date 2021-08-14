@@ -19,7 +19,7 @@ const index = () => {
       </Head>
       <h5 className="my-3 text-base font-medium">
         I am currently working as a Software Enginner at Persistent Systems Ltd.
-        I am completed my B.Tech from Academy of Technology with 9.58 DGPA and
+        I have completed my B.Tech from Academy of Technology with 9.58 DGPA and
         secured 86.8% and 91.7% aggregate in 12th and 10th respectively. I have
         4+ years of experience in Web Development and 2+ years of experience in
         Machine Learning.
