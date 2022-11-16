@@ -18,11 +18,7 @@ const index = () => {
         <title>Shankha Shubhra Das | Portfolio</title>
       </Head>
       <h5 className="my-3 text-base font-medium">
-        I am currently working as a Software Enginner at Persistent Systems Ltd.
-        I have completed my B.Tech from Academy of Technology with 9.58 DGPA and
-        secured 86.8% and 91.7% aggregate in 12th and 10th respectively. I have
-        4+ years of experience in Web Development and 2+ years of experience in
-        Machine Learning.
+        I am currently doing my M.E. in CSE from Jadavpur University. I worked as a Software Enginner at Persistent Systems Ltd for 1.5 years. I have completed my B.Tech from Academy of Technology with 9.58 DGPA and secured 86.8% and 91.7% aggregate in 12th and 10th respectively. I have 4+ years of experience in Web Development and 2+ years of experience in Machine Learning.
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"

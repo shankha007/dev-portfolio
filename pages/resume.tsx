@@ -22,12 +22,20 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
-              Computer Science Engineering
+              M.E. in CSE
             </h5>
-            <p className="font-semibold">Academy of Technology (2017-2021)</p>
+            <p className="font-semibold">Jadavpur University (2022 - now)</p>
             <p className="my-3">
-              I have completed my B.Tech Degree with 9.58 DGPA in Computer
-              Science and Engineering.
+              I am currently doing my masters from Jadavpur University in Computer Science and Engineering.
+            </p>
+          </div>
+          <div>
+            <h5 className="my-2 text-xl font-bold">
+              B.Tech in CSE
+            </h5>
+            <p className="font-semibold">Academy of Technology (2017 - 2021)</p>
+            <p className="my-3">
+              I have completed my B.Tech Degree with 9.58 DGPA in Computer Science and Engineering.
             </p>
           </div>
         </motion.div>
@@ -35,9 +43,9 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">Software Engineer</h5>
-            <p className="font-semibold">Persistent Systems Ltd.</p>
+            <p className="font-semibold">Persistent Systems Ltd. (Jan 2021 - Aug 2022)</p>
             <p className="my-3">
-              I work here as a Software Engineer and working in React UI domain.
+              I worked here as a Software Engineer mainly in React UI domain. During my tenure, I worked with reputed clients like Domo, Amazon, etc and got good feedbacks from them.
             </p>
           </div>
         </motion.div>

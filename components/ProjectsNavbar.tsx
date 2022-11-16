@@ -30,6 +30,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="java" {...props} />
       <NavItem value="node" {...props} />
       <NavItem value="angular" {...props} />
+      <NavItem value="javascript" {...props} />
     </div>
   );
 };
